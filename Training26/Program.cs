@@ -1,7 +1,9 @@
 ﻿namespace Training26;
 
-class Program {
+public static class Program {
    static void Main (string[] args) {
-      Console.WriteLine ("Hello, World!");
+      Console.WriteLine (BracketChecker.IsBracketChecker ("([])")); //True
+      Console.WriteLine (BracketChecker.IsBracketChecker ("(]")); //False
    }
 }
+
