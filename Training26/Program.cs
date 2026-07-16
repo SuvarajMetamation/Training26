@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿namespace Training26 {
    class Program {
       static void Main (string[] args) {
@@ -30,5 +31,19 @@
          }
          return answer;
       }
+||||||| 44c8a2f
+﻿namespace Training26;
+
+class Program {
+   static void Main (string[] args) {
+      Console.WriteLine ("Hello, World!");
+=======
+﻿namespace Training26;
+
+class Program {
+   static void Main (string[] args) {
+      Console.WriteLine ("Hello, World!");
+      Console.WriteLine ("Hello, World!");
+>>>>>>> main
    }
 }
